@@ -1,4 +1,4 @@
-# DeepLearning Paper List
+# Paper List
 A list of paper that i read
 
 ## Contents
@@ -40,15 +40,15 @@ DanbooRegion: An Illustration Region Dataset(ECCV 2020)[[pdf]](https://lllyasvie
 ### Others
 Title | Contributions | Code | review |
 --- | --- | --- | --- |
-Robust and Generalizable Visual Representation Learning via Random Convolutions[[pdf]](https://arxiv.org/pdf/1811.10153.pdf) | <ul><li> explore using outputs of multi-scale random convolutions as new images or mixing them with the original images during training | Not implented yet(2021/02/15) | - |
-Spectral Normalization for Generative Adversarial Networks(ICLR 2018) [[pdf]](https://arxiv.org/pdf/1802.05957.pdf) | <ul><li> Lipschitz constant is the only hyper-parameter to be tuned, and the algorithm does not require intensive tuning of the only hyper-parameter for satisfactory performance. <il><li> functioned well even without tuning Lipschitz constant, which is the only hyper parameter | [[code]](https://github.com/pfnet-research/sngan_projection) | - |
+Robust and Generalizable Visual Representation Learning via Random Convolutions[[pdf]](https://arxiv.org/pdf/1811.10153.pdf) | <ul><li> Explore using outputs of multi-scale random convolutions as new images or mixing them with the original images during training | Not implented yet(2021/02/15) | - |
+Spectral Normalization for Generative Adversarial Networks(ICLR 2018) [[pdf]](https://arxiv.org/pdf/1802.05957.pdf) | <ul><li> Lipschitz constant is the only hyper-parameter to be tuned, and the algorithm does not require intensive tuning of the only hyper-parameter for satisfactory performance. <il><li> Functioned well even without tuning Lipschitz constant, which is the only hyper parameter | [[code]](https://github.com/pfnet-research/sngan_projection) | - |
 
 
 ## Natural-Language-Processing
 ### Audio-Synthesis
 Title | Contributions | Code | review |
 --- | --- | --- | --- |
-WAVENET: A GENERATIVE MODEL FOR RAW AUDIO [[pdf]](https://arxiv.org/pdf/1609.03499.pdf) | <ul><li> develop new architectures based on dilated causal convolutions, which exhibit very large receptive fields <il><li> Show that when conditioned on a speaker identity, a single model can be used to generate different voices. large receptive fields. | [[code]](https://github.com/ibab/tensorflow-wavenet) | - | 
+WAVENET: A GENERATIVE MODEL FOR RAW AUDIO [[pdf]](https://arxiv.org/pdf/1609.03499.pdf) | <ul><li> Develop new architectures based on dilated causal convolutions, which exhibit very large receptive fields <il><li> Show that when conditioned on a speaker identity, a single model can be used to generate different voices. large receptive fields. | [[code]](https://github.com/ibab/tensorflow-wavenet) | - | 
 
 
 ## Others
