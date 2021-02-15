@@ -6,7 +6,7 @@ A list of paper that i read
 - [Computer-Vision](#Computer-Vision)
   - [Self-Supervised-Learning](#Self-Supervised-Learning)
   - [ViewPoint-Estimation](#ViewPoint-Estimation)
-  - [Image-Synthesis and Image-Transfer](#Image-Synthesis and Image-Transfer)
+  - [Image-Synthesis,Image-Transfer](#Image-Synthesis,Image-Transfer)
   - [Image-Augmentation](#Image-Augmentation)
 - [Medical-application](#Medical-application)
 
