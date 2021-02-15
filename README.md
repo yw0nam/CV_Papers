@@ -48,7 +48,7 @@ DanbooRegion: An Illustration Region Dataset(ECCV 2020)[[pdf]](https://lllyasvie
 ### Audio-Synthesis
 Title | Contributions | Code | review |
 --- | --- | --- | --- |
-WAVENET: A GENERATIVE MODEL FOR RAW AUDIO [[pdf]](https://arxiv.org/pdf/1609.03499.pdf) | <ul><li> develop new architectures based on dilated causal convolutions, which exhibit very large receptive fields <ul><li> Show that when conditioned on a speaker identity, a single model can be used to generate different voices. large receptive fields. | [[code]](https://github.com/ibab/tensorflow-wavenet) | - | 
+WAVENET: A GENERATIVE MODEL FOR RAW AUDIO [[pdf]](https://arxiv.org/pdf/1609.03499.pdf) | <ul><li> develop new architectures based on dilated causal convolutions, which exhibit very large receptive fields <il><li> Show that when conditioned on a speaker identity, a single model can be used to generate different voices. large receptive fields. | [[code]](https://github.com/ibab/tensorflow-wavenet) | - | 
 
 
 ## Data-Privacy
