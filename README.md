@@ -75,4 +75,7 @@ Title | site |
 Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs | [[site]](https://pubmed.ncbi.nlm.nih.gov/27898976/) |
 Fundus Image Classification Using VGG-19 Architecture with PCA and SVD | [[site]](https://www.mdpi.com/2073-8994/11/1/1) |
 Artificial Intelligence and Its Effect on Dermatologists’ Accuracy in Dermoscopic Melanoma Image Classification: Web-Based Survey Study | [[site]](https://www.jmir.org/2020/9/e18091/) |
-Joint Optic Disc and Cup Segmentation Based on Multi-label Deep Network and Polar Transformation | [[site]](https://arxiv.org/abs/1801.00926)
+Joint Optic Disc and Cup Segmentation Based on Multi-label Deep Network and Polar Transformation | [[site]](https://arxiv.org/abs/1801.00926) |
+A Human-Centered Evaluation of a Deep Learning System Deployed in Clinics for the Detection of Diabetic Retinopathy | [[site]](https://dl.acm.org/doi/abs/10.1145/3313831.3376718) |
+Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms using a deep neural network | [[site]](https://www.nature.com/articles/s41591-018-0268-3) |
+
