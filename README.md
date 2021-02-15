@@ -7,8 +7,9 @@ The list of paper that i read
   - [Image-Synthesis,Image-Transfer](#Image-Synthesis,Image-Transfer)
   - [Dataset](#Dataset) 
   - [Others](#Others)
-- [Natural-Language-Processing](#Natural-Language-Processing)
+- [Natural-Language-Processing](#NLP)
   - [Audio-Synthesis](#Audio-Synthesis)
+- [Generative Adversarial Network](#GAN)
 - [Others](#Others)
 - [Medical-application](#Medical-application)
 
@@ -24,13 +25,15 @@ Self-Supervised GANs via Auxiliary Rotation Loss(CVPR 2018) [[pdf]](https://arxi
 Steering Self-Supervised Feature Learning Beyond Local Pixel Statistics(CVPR 2020) [[pdf]](https://arxiv.org/abs/2004.02331) | <ul><li> Introduce a novel selfsupervised learning principle based on image transformations that can be detected only through global observations  </il><li> Introduce a novel transformation according to this principle and demonstrate experimentally its impact on feature learning <li><il> Formulate the method so that it can easily scale with additional transformations | [[code]](https://github.com/sjenni/LCI) | - |
 Self-PU: Self Boosted and Calibrated Positive-Unlabeled Training(ICML 2020) [[pdf]](https://arxiv.org/abs/2006.11280) | <ul><li> A self-distillation scheme is designed via the collaborative training between several teacher networks and student networks </il><li> A self-calibration strategy is leveraged to further explore the fine-grained treatment of loss functions over unconfident examples, in a meta-learning fashion | [[code]](https://github.com/VITA-Group/Self-PU) | - |
 Unsupervised Part Discovery via Feature Alignment(submitted CVPR 2021 - 2021/02/15) [[pdf]](https://arxiv.org/abs/2012.00313) | <ul><li> Part detectors that are consistent across different object instances, 3D poses and articulations  </il><li> The authors argue that Without groundtruth part annotation, there still exists supervisions, coming from the coherence between similar images | Not implemented yet(2021/02/15) | - |
-
+Self-Supervised Learning for Generalizable Out-of-Distribution Detection(AAAI 2020)[[pdf]](http://people.tamu.edu/~sina.mohseni/papers/Self_Supervised_Learning_for_Generalizable_Out_of_Distribution_Detection.pdf) | <ul><li> The Techique does not need to pre-know the distribution of targeted OOD samples and incur no extra overhead | Not implemented yet(2021/02/15) | - | 
 
 ### Image-Synthesis,Image-Transfer
 Title | Contributions | Code | review |
 --- | --- | --- | --- |
 ADGAN:Controllable Person Image Synthesis With Attribute-Decomposed GAN(CVPR 2020)[[pdf]](https://arxiv.org/pdf/2003.12267.pdf) | <ul><li> Cloth Transfer by Decomposed Component Encoder and Global Texture Encoder <il><li> Texture Style Transfer using Fusion module | [code](https://github.com/menyifang/ADGAN) | [Yes](https://medium.com/analytics-vidhya/paper-review-adgan-controllable-person-image-synthesis-with-attribute-decomposed-gan-1c45bddbe00a) |
 Spatially Controllable Image Synthesis with Internal Representation Collaging[[pdf]](https://arxiv.org/pdf/1811.10153.pdf) | <ul><li> Spatial Conditional batch normalization(called sCBN), conditinoal batch norm with user-specifiable spatial weight map <il><li> Feature blending by directly modifying the intermediate features | [code](https://github.com/quolc/neural-collage) | - |
+Soft-Gated Warping-GAN for Pose-Guided Person Image Synthesis [[pdf]](https://arxiv.org/abs/1810.11610) | <ul><li> Soft-Gated Warping-GAN to address the large spatial misalignment issues induced by geometric transformations of desired poses | Not implemented yet(2021/02/15) | - | 
+  
 
 ### Dataset
 Title | Contributions | Code | review |
@@ -50,13 +53,16 @@ Title | Contributions | Code | review |
 --- | --- | --- | --- |
 WAVENET: A GENERATIVE MODEL FOR RAW AUDIO [[pdf]](https://arxiv.org/pdf/1609.03499.pdf) | <ul><li> Develop new architectures based on dilated causal convolutions, which exhibit very large receptive fields <il><li> Show that when conditioned on a speaker identity, a single model can be used to generate different voices. large receptive fields. | [[code]](https://github.com/ibab/tensorflow-wavenet) | - | 
 
-
-## Others
+## Generative Adversarial Network
 Title | Contributions | Code | review |
 --- | --- | --- | --- |
 Learn From Distributed Asynchronized GAN Without Sharing Medical Image Data(CVPR 2020)[[pdf]](https://arxiv.org/abs/2006.00080) | <ul><li> In clinical environment, Prviacy violation is critical point. So, this paper handle this problem by Synthesis image using GAN | [code](https://github.com/tommy-qichang/AsynDGAN) | [Yes](https://medium.com/analytics-vidhya/paper-review-asyndgan-train-deep-learning-without-sharing-medical-image-data-ac93b5592be4) |
+Data Synthesis based on Generative Adversarial Networks [[pdf]](https://arxiv.org/abs/1806.03384) | <ul><li> Propose Table-GAN, uses generative adversarial networks (GANs) to synthesize fake tables that are statistically similar to the original table yet do not incur information leakage. | [[code]](https://github.com/mahmoodm2/tableGAN) | - | 
+  
+## Others
+Title | Contributions | Code | review |
+--- | --- | --- | --- |
 Unsupervised Model Personalization while Preserving Privacy and Scalability An Open Problem(CVPR 2020)[[pdf]](https://arxiv.org/abs/2003.13296) | <ul><li> DUA framework-a single model that multiple task-specific model compressed | [code](https://github.com/mattdl/DUA) | - | 
-Self-Supervised Learning for Generalizable Out-of-Distribution Detection(AAAI 2020)[[pdf]](http://people.tamu.edu/~sina.mohseni/papers/Self_Supervised_Learning_for_Generalizable_Out_of_Distribution_Detection.pdf) | <ul><li> The Techique does not need to pre-know the distribution of targeted OOD samples and incur no extra overhead | Not implemented yet(2021/02/15) | - | 
 Cylindrical Convolutional Networks for Joint Object Detection and Viewpoint Estimation(CVPR 2020)[[pdf]](https://arxiv.org/abs/2003.11303) | <ul><li> Extract the view-specific feature conditioned on the object viewpoint that encodes structural information at each viewpoint <il><li> Differentiable argmax operator called sinusoidal soft-argmax that can manage sinusoidal | [code](https://github.com/sunghunjoung/CCNs/) | [Yes](https://medium.com/@yw_nam/paper-review-cylindrical-convolutional-networks-for-joint-object-detection-and-viewpoint-813acead4b2c)
   
   
