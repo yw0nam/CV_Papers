@@ -6,11 +6,12 @@ A list of paper that i read
   - [Self-Supervised-Learning](#Self-Supervised-Learning)
   - [ViewPoint-Estimation](#ViewPoint-Estimation)
   - [Image-Synthesis,Image-Transfer](#Image-Synthesis,Image-Transfer)
-  - [Image-Augmentation](#Image-Augmentation)
   - [Dataset](#Dataset) 
+  - [Others](#Others)
 - [Natural-Language-Processing](#Natural-Language-Processing)
   - [Audio-Synthesis](#Audio-Synthesis)
 - [Data-Privacy](#Data-Privacy) 
+- [Out-Of-Distribution](#Out-Of-Distribution) 
 - [Medical-application](#Medical-application)
 
 ## Computer-Vision
@@ -32,17 +33,18 @@ Title | Contributions | Code | review |
 --- | --- | --- | --- |
 ADGAN:Controllable Person Image Synthesis With Attribute-Decomposed GAN(CVPR 2020)[[pdf]](https://arxiv.org/pdf/2003.12267.pdf) | <ul><li> Cloth Transfer by Decomposed Component Encoder and Global Texture Encoder <il><li> Texture Style Transfer using Fusion module | [code](https://github.com/menyifang/ADGAN) | [Yes](https://medium.com/analytics-vidhya/paper-review-adgan-controllable-person-image-synthesis-with-attribute-decomposed-gan-1c45bddbe00a) |
 Spatially Controllable Image Synthesis with Internal Representation Collaging[[pdf]](https://arxiv.org/pdf/1811.10153.pdf) | <ul><li> Spatial Conditional batch normalization(called sCBN), conditinoal batch norm with user-specifiable spatial weight map <il><li> Feature blending by directly modifying the intermediate features | [code](https://github.com/quolc/neural-collage) | - |
-  
-### Image-Augmentation
-Title | Contributions | Code | review |
---- | --- | --- | --- |
-Robust and Generalizable Visual Representation Learning via Random Convolutions[[pdf]](https://arxiv.org/pdf/1811.10153.pdf) | <ul><li> explore using outputs of multi-scale random convolutions as new images or mixing them with the original images during training | Not implented yet(2021/02/15) | - |
 
 ### Dataset
 Title | Contributions | Code | review |
 --- | --- | --- | --- |
 DanbooRegion: An Illustration Region Dataset(ECCV 2020)[[pdf]](https://lllyasviel.github.io/DanbooRegion/paper/paper.pdf) | <ul><li> Dataset that annotate regions for in-the-wild cartoon images | [[code]](https://github.com/lllyasviel/DanbooRegion) | - |
-  
+ 
+### Others
+Title | Contributions | Code | review |
+--- | --- | --- | --- |
+Robust and Generalizable Visual Representation Learning via Random Convolutions[[pdf]](https://arxiv.org/pdf/1811.10153.pdf) | <ul><li> explore using outputs of multi-scale random convolutions as new images or mixing them with the original images during training | Not implented yet(2021/02/15) | - |
+Spectral Normalization for Generative Adversarial Networks(ICLR 2018) [[pdf]](https://arxiv.org/pdf/1802.05957.pdf) | <ul><li> Lipschitz constant is the only hyper-parameter to be tuned, and the algorithm does not require intensive tuning of the only hyper-parameter for satisfactory performance. <il><li> functioned well even without tuning Lipschitz constant, which is the only hyper parameter | [[code]](https://github.com/pfnet-research/sngan_projection) | - |
+
 
 ## Natural-Language-Processing
 ### Audio-Synthesis
@@ -52,14 +54,19 @@ WAVENET: A GENERATIVE MODEL FOR RAW AUDIO [[pdf]](https://arxiv.org/pdf/1609.034
 
 
 ## Data-Privacy
-
 Title | Contributions | Code | review |
 --- | --- | --- | --- |
 Learn From Distributed Asynchronized GAN Without Sharing Medical Image Data(CVPR 2020)[[pdf]](https://arxiv.org/abs/2006.00080) | <ul><li> In clinical environment, Prviacy violation is critical point. So, this paper handle this problem by Synthesis image using GAN | [code](https://github.com/tommy-qichang/AsynDGAN) | [Yes](https://medium.com/analytics-vidhya/paper-review-asyndgan-train-deep-learning-without-sharing-medical-image-data-ac93b5592be4) |
 Unsupervised Model Personalization while Preserving Privacy and Scalability An Open Problem(CVPR 2020)[[pdf]](https://arxiv.org/abs/2003.13296) | <ul><li> DUA framework-a single model that multiple task-specific model compressed | [code](https://github.com/mattdl/DUA) | - | 
+  
+## Out-Of-Distribution
+Title | Contributions | Code | review |
+--- | --- | --- | --- |
+Self-Supervised Learning for Generalizable Out-of-Distribution Detection(AAAI 2020)[[pdf]](http://people.tamu.edu/~sina.mohseni/papers/Self_Supervised_Learning_for_Generalizable_Out_of_Distribution_Detection.pdf) | <ul><li> The Techique does not need to pre-know the distribution of targeted OOD samples and incur no extra overhead | Not implemented yet(2021/02/15) | - | 
   
 ## Medical-application
 Title | site |
 --- | --- |
 Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs | [[site]](https://pubmed.ncbi.nlm.nih.gov/27898976/) |
 Fundus Image Classification Using VGG-19 Architecture with PCA and SVD | [[site]](https://www.mdpi.com/2073-8994/11/1/1) |
+Artificial Intelligence and Its Effect on Dermatologists’ Accuracy in Dermoscopic Melanoma Image Classification: Web-Based Survey Study | [[site]](https://www.jmir.org/2020/9/e18091/) |
