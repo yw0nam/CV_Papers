@@ -9,7 +9,7 @@ A list of paper that i read
   - [Image-Synthesis,Image-Transfer](#Image-Synthesis,Image-Transfer)
   - [Image-Augmentation](#Image-Augmentation)
   - [Dataset](#Dataset) 
-- [Natural Language Processing] (#Natural Language Processing)
+- [Natural-Language-Processing](#Natural-Language-Processing)
   - [Audio-Synthesis](#Audio-Synthesis)
 - [Medical-application](#Medical-application)
 
@@ -51,7 +51,7 @@ Title | Contributions | Code | review |
 DanbooRegion: An Illustration Region Dataset(ECCV 2020)[[pdf]](https://lllyasviel.github.io/DanbooRegion/paper/paper.pdf) | <ul><li> Dataset that annotate regions for in-the-wild cartoon images | [[code]](https://github.com/lllyasviel/DanbooRegion) | - |
   
 
-# Natural Language Processing
+# Natural-Language-Processing
 ## Audio-Synthesis
 Title | Contributions | Code | review |
 --- | --- | --- | --- |
