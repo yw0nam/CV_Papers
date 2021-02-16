@@ -5,11 +5,11 @@ The list of paper that i read
 - [Computer-Vision](#Computer-Vision)
   - [Self-Supervised-Learning](#Self-Supervised-Learning)
   - [Image-Synthesis,Image-Transfer](#Image-Synthesis,Image-Transfer)
-  - [Dataset](#Dataset) 
   - [Others](#Others)
 - [Natural-Language-Processing](#NLP)
   - [Audio-Synthesis](#Audio-Synthesis)
 - [Generative Adversarial Network](#GAN)
+- [Dataset](#Dataset) 
 - [Others](#Others)
 - [Medical-application](#Medical-application)
 
@@ -36,11 +36,6 @@ Soft-Gated Warping-GAN for Pose-Guided Person Image Synthesis [[pdf]](https://ar
 Deep Image Spatial Transformation for Person Image Generation(CVPR 2020) [[pdf]](https://arxiv.org/abs/2003.00696) | <ul><li> Propose a differentiable global-flow local-attention
 framework to reassemble the inputs at the feature level <il><li> video animation and view synthesis show that our model is applicable to other tasks requiring spatial transformation | [code](https://github.com/RenYurui/Global-Flow-Local-Attention) | - |
 StarGAN v2: Diverse Image Synthesis for Multiple Domains(CVPR 2020)[[pdf]](https://arxiv.org/abs/1912.01865) | <ui><li> The mapping network learns to transform random Gaussian noise into a style code <il><li> Style encoder learns to extract the style code from a given reference image <il><li> Utilizing these style codes, our generator learns to successfully synthesize diverse images over multiple domains | [code](https://github.com/clovaai/stargan-v2) | - |
-  
-### Dataset
-Title | Contributions | Code | review |
---- | --- | --- | --- |
-DanbooRegion: An Illustration Region Dataset(ECCV 2020)[[pdf]](https://lllyasviel.github.io/DanbooRegion/paper/paper.pdf) | <ul><li> Dataset that annotate regions for in-the-wild cartoon images | [code](https://github.com/lllyasviel/DanbooRegion) | - |
  
 ### Others
 Title | Contributions | Code | review |
@@ -61,6 +56,12 @@ Title | Contributions | Code | review |
 Learn From Distributed Asynchronized GAN Without Sharing Medical Image Data(CVPR 2020)[[pdf]](https://arxiv.org/abs/2006.00080) | <ul><li> In clinical environment, Prviacy violation is critical point. So, this paper handle this problem by Synthesis image using GAN | [code](https://github.com/tommy-qichang/AsynDGAN) | [Yes](https://medium.com/analytics-vidhya/paper-review-asyndgan-train-deep-learning-without-sharing-medical-image-data-ac93b5592be4) |
 Data Synthesis based on Generative Adversarial Networks [[pdf]](https://arxiv.org/abs/1806.03384) | <ul><li> Propose Table-GAN, uses generative adversarial networks (GANs) to synthesize fake tables that are statistically similar to the original table yet do not incur information leakage. | [code](https://github.com/mahmoodm2/tableGAN) | - |
 PerceptionGAN: Real-world Image Construction from Provided Text through Perceptual Understanding(IVPR 2020) [[pdf]](https://arxiv.org/abs/2007.00977) | <ui><li> Propose a method to address the first problem, namely, generating a good, perceptually relevant, low-resolution image to be used as an initialization for the refinement stage | Not implemented yet(2021/02/15) | - |
+ 
+ 
+## Dataset
+Title | Contributions | Code | review |
+--- | --- | --- | --- |
+DanbooRegion: An Illustration Region Dataset(ECCV 2020)[[pdf]](https://lllyasviel.github.io/DanbooRegion/paper/paper.pdf) | <ul><li> Dataset that annotate regions for in-the-wild cartoon images | [code](https://github.com/lllyasviel/DanbooRegion) | - |
   
 ## Others
 Title | Contributions | Code | review |
