@@ -6,7 +6,7 @@ The list of paper that i read
   - [Self-Supervised-Learning](#Self-Supervised-Learning)
   - [Image-Synthesis,Image-Transfer](#Image-Synthesis,Image-Transfer)
   - [Others](#Others)
-- [Natural-Language-Processing](#NLP)
+- [Natural-Language-Processing](#Natural-Language-Processing)
   - [Audio-Synthesis](#Audio-Synthesis)
 - [Generative Adversarial Network](#GAN)
 - [Dataset](#Dataset) 
