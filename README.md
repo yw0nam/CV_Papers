@@ -2,16 +2,16 @@
 The list of paper that i read
 
 ## Contents
-- [Computer-Vision](#Computer-Vision)
-  - [Self-Supervised-Learning](#Self-Supervised-Learning)
-  - [Image-Synthesis,Image-Transfer](#Image-Synthesis,Image-Transfer)
+- [Computer Vision](#Computer-Vision)
+  - [Self Supervised Learning](#Self-Supervised-Learning)
+  - [Image Synthesis](#Image-Synthesis)
   - [Others](#Others)
-- [Natural-Language-Processing](#Natural-Language-Processing)
-  - [Audio-Synthesis](#Audio-Synthesis)
-- [Generative Adversarial Network](#GAN)
+- [Natural Language Processing](#Natural-Language-Processing)
+  - [Audio Synthesis](#Audio-Synthesis)
+- [Generative Adversarial Network](#Generative-Adversarial-Network)
 - [Dataset](#Dataset) 
 - [Others](#Others)
-- [Medical-application](#Medical-application)
+- [Medical Application](#Medical-application)
 
 ## Computer-Vision
 ### Self-Supervised Learning
@@ -29,7 +29,7 @@ Self-Supervised Learning for Generalizable Out-of-Distribution Detection(AAAI 20
 SCOPS: Self-Supervised Co-Part Segmentation(CVPR 2019)[[pdf]](https://arxiv.org/abs/1905.01298) | <ul><li> Propose a self-supervised deep learning framework for part segmentation that use given an image collection of the same object category. <il><li> Devise loss functions for part segmentations | [code](https://github.com/NVlabs/SCOPS) | - | :star::star::star::star: |
 
   
-### Image-Synthesis,Image-Transfer
+### Image-Synthesis
 Title | Contributions | Code | Review | Recommand |
 --- | --- | --- | --- | --- |
 Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks(2017 ICCV)[[pdf]](https://arxiv.org/abs/1703.10593) | <ul><li> Propose method that capturing special characteristics of one image collection and figuring out how these characteristics could be translated into the other image collection <il><li> Propose algorithm that can learn to translate between domains without paired input-output | [code](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) | - | :star::star::star::star::star: |
@@ -48,7 +48,7 @@ Title | Contributions | Code | Review | Recommand |
 --- | --- | --- | --- | --- |
 Robust and Generalizable Visual Representation Learning via Random Convolutions[[pdf]](https://arxiv.org/pdf/1811.10153.pdf) | <ul><li> Explore using outputs of multi-scale random convolutions as new images or mixing them with the original images during training | Not implented yet(2021/02/15) | - | :star::star::star: |
 
-## Natural-Language-Processing
+## Natural Language Processing
 ### Audio-Synthesis
 Title | Contributions | Code | Review | Recommand |
 --- | --- | --- | --- | --- |
