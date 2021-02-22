@@ -75,7 +75,9 @@ Title | Contributions | Code | review | Recommand |
 --- | --- | --- | --- | --- |
 Unsupervised Model Personalization while Preserving Privacy and Scalability An Open Problem(CVPR 2020)[[pdf]](https://arxiv.org/abs/2003.13296) | <ul><li> DUA framework-a single model that multiple task-specific model compressed | [code](https://github.com/mattdl/DUA) | - | :star::star::star: |
 Cylindrical Convolutional Networks for Joint Object Detection and Viewpoint Estimation(CVPR 2020)[[pdf]](https://arxiv.org/abs/2003.11303) | <ul><li> Extract the view-specific feature conditioned on the object viewpoint that encodes structural information at each viewpoint <il><li> Differentiable argmax operator called sinusoidal soft-argmax that can manage sinusoidal | [code](https://github.com/sunghunjoung/CCNs/) | [Yes](https://medium.com/@yw_nam/paper-review-cylindrical-convolutional-networks-for-joint-object-detection-and-viewpoint-813acead4b2c) | :star::star::star: |
-  
+SelectiveNet: A Deep Neural Network with an Integrated Reject Option(2019 ICML)[[pdf]](https://arxiv.org/abs/1901.09192) | <ul><li> A selective loss function that optimizes a specified coverage slice using a variant of the interior point optimization method <il><li> SelectiveNet: A three-headed network for end-to-end learning of selective classification models. <il><li> SelectiveNet for regression: Providing the first alternative to costly methods such as MC-dropout or ensemble techniques. | [code](https://github.com/geifmany/SelectiveNet) | - | :star::star::star: |
+Uncertainty-Based Rejection Wrappers for Black-Box Classifiers(2020 IEEE)[[pdf]](https://ieeexplore.ieee.org/document/9097854) | <ul><li> present a method for estimating the uncertainty of a black-box model | Not implemented yet(2021/02/22) | - | :star::star::star: |
+   
   
 ## Medical-application
 Title | site |
