@@ -5,12 +5,6 @@ The list of paper that i read
 - [Computer Vision](#Computer-Vision)
   - [Self Supervised Learning](#Self-Supervised-Learning)
   - [Image Synthesis](#Image-Synthesis)
-  - [Others](#Others)
-- [Natural Language Processing](#Natural-Language-Processing)
-  - [Audio Synthesis](#Audio-Synthesis)
-  - [text processing](#text-processing)
-- [Audio Visual](#Natural-Language-Processing)
-  - [Active Speaker detection](#Active-Speaker-detection)
 - [Generative Adversarial Network](#Generative-Adversarial-Network)
 - [Dataset](#Dataset) 
 - [Others](#Others)
@@ -46,17 +40,6 @@ Disentangling Style and Content in Anime Illustrations[[pdf]](https://arxiv.org/
 Style Transfer for Anime Sketches with Enhanced Residual U-net and Auxiliary Classifier GAN(ACPR 2017)[[pdf]](https://arxiv.org/abs/1706.03319) | <ul><li> A feed-forward network to apply the style of a painting to a sketch. <il><li> An enhanced residual U-net capable of handling paired images with unbalanced information quantity.<il><li> An effective way to train residual U-net with two additional loss. <il><li>A discriminator modified from AC-GAN suitable to deal with paintings of different style. | [code](https://paperswithcode.com/paper/style-transfer-for-anime-sketches-with) | - | :star::star::star: |
 Tag2Pix: Line Art Colorization Using Text Tag With SECat and Changing Loss(ICCV 2019)[[pdf]](https://arxiv.org/abs/1908.05840) | <ul><li> Propose a dataset for training the Tag2Pix network <il><li> Present an adversarial line art colorization network called Tag2Pix <il><li> propose a novel network structure called SE-cat that enhances multi-label segmentation and colorization. <il><li> Present a novel loss combination and curriculum learning method for the Tag2Pix network | [code](https://github.com/blandocs/Tag2Pix) | - |  :star::star::star::star: |
 
-### Others
-Title | Contributions | Code | Review | Recommand |
---- | --- | --- | --- | --- |
-Robust and Generalizable Visual Representation Learning via Random Convolutions[[pdf]](https://arxiv.org/pdf/1811.10153.pdf) | <ul><li> Explore using outputs of multi-scale random convolutions as new images or mixing them with the original images during training | Not implented yet(2021/02/15) | - | :star::star::star: |
-
-## Natural Language Processing
-### Audio-Synthesis
-Title | Contributions | Code | Review | Recommand |
---- | --- | --- | --- | --- |
-WAVENET: A GENERATIVE MODEL FOR RAW AUDIO [[pdf]](https://arxiv.org/pdf/1609.03499.pdf) | <ul><li> Develop new architectures based on dilated causal convolutions, which exhibit very large receptive fields <il><li> Show that when conditioned on a speaker identity, a single model can be used to generate different voices. large receptive fields. | [code](https://github.com/ibab/tensorflow-wavenet) | - | :star::star::star::star::star: |
-
 ## Generative Adversarial Network
 Title | Contributions | Code | Review | Recommand |
 --- | --- | --- | --- | --- |
@@ -72,7 +55,7 @@ PerceptionGAN: Real-world Image Construction from Provided Text through Perceptu
 Title | Contributions | Code | Review | Recommand |
 --- | --- | --- | --- | --- |
 DanbooRegion: An Illustration Region Dataset(ECCV 2020)[[site]](https://lllyasviel.github.io/DanbooRegion) | <ul><li> Dataset that annotate regions for in-the-wild cartoon images | [code](https://github.com/lllyasviel/DanbooRegion) | - | :star::star::star: |
-Voxceleb: Large-scale speaker verification in the wild(Computer Science and Language 2019)[[site]](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/) | <ul><li> Propose a fully automated and scalable pipeline for creating a large-scale‘real-world’speaker identification data-set <il><li> VGGVox, Deep CNN based neural speaker verification system, which is trained to mapvoice spectrograms to a compact embedding space. | [github](https://github.com/a-nagrani/VGGVox) | - | :star::star::star::star::star: |
+
   
 ## Others
 Title | Contributions | Code | review | Recommand |
@@ -81,7 +64,7 @@ Unsupervised Model Personalization while Preserving Privacy and Scalability An O
 Cylindrical Convolutional Networks for Joint Object Detection and Viewpoint Estimation(CVPR 2020)[[pdf]](https://arxiv.org/abs/2003.11303) | <ul><li> Extract the view-specific feature conditioned on the object viewpoint that encodes structural information at each viewpoint <il><li> Differentiable argmax operator called sinusoidal soft-argmax that can manage sinusoidal | [code](https://github.com/sunghunjoung/CCNs/) | [Yes](https://medium.com/@yw_nam/paper-review-cylindrical-convolutional-networks-for-joint-object-detection-and-viewpoint-813acead4b2c) | :star::star::star: |
 SelectiveNet: A Deep Neural Network with an Integrated Reject Option(2019 ICML)[[pdf]](https://arxiv.org/abs/1901.09192) | <ul><li> A selective loss function that optimizes a specified coverage slice using a variant of the interior point optimization method <il><li> SelectiveNet: A three-headed network for end-to-end learning of selective classification models. <il><li> SelectiveNet for regression: Providing the first alternative to costly methods such as MC-dropout or ensemble techniques. | [code](https://github.com/geifmany/SelectiveNet) | - | :star::star::star: |
 Uncertainty-Based Rejection Wrappers for Black-Box Classifiers(2020 IEEE)[[pdf]](https://ieeexplore.ieee.org/document/9097854) | <ul><li> present a method for estimating the uncertainty of a black-box model | Not implemented yet(2021/02/22) | - | :star::star::star: |
-   
+Robust and Generalizable Visual Representation Learning via Random Convolutions[[pdf]](https://arxiv.org/pdf/1811.10153.pdf) | <ul><li> Explore using outputs of multi-scale random convolutions as new images or mixing them with the original images during training | Not implented yet(2021/02/15) | - | :star::star::star: |
   
 ## Medical-application
 Title | site |
