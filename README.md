@@ -2,16 +2,15 @@
 The list of paper that i read
 
 ## Contents
-- [Computer Vision](#Computer-Vision)
-  - [Self Supervised Learning](#Self-Supervised-Learning)
-  - [Image Synthesis](#Image-Synthesis)
+- [Self Supervised Learning](#Self-Supervised-Learning)
+- [Image Synthesis](#Image-Synthesis)
 - [Generative Adversarial Network](#Generative-Adversarial-Network)
 - [Dataset](#Dataset) 
 - [Others](#Others)
 - [Medical Application](#Medical-application)
 
-## Computer-Vision
-### Self-Supervised Learning
+
+## Self-Supervised Learning
 
 Title | Contributions | Code | Review | Recommand|
 --- | --- | --- | --- | --- | 
@@ -26,7 +25,7 @@ Self-Supervised Learning for Generalizable Out-of-Distribution Detection(AAAI 20
 SCOPS: Self-Supervised Co-Part Segmentation(CVPR 2019)[[pdf]](https://arxiv.org/abs/1905.01298) | <ul><li> Propose a self-supervised deep learning framework for part segmentation that use given an image collection of the same object category. <il><li> Devise loss functions for part segmentations | [code](https://github.com/NVlabs/SCOPS) | - | :star::star::star::star: |
 
   
-### Image-Synthesis
+## Image-Synthesis
 Title | Contributions | Code | Review | Recommand |
 --- | --- | --- | --- | --- |
 Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks(2017 ICCV)[[pdf]](https://arxiv.org/abs/1703.10593) | <ul><li> Propose method that capturing special characteristics of one image collection and figuring out how these characteristics could be translated into the other image collection <il><li> Propose algorithm that can learn to translate between domains without paired input-output | [code](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) | - | :star::star::star::star::star: |
