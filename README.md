@@ -8,6 +8,9 @@ The list of paper that i read
   - [Others](#Others)
 - [Natural Language Processing](#Natural-Language-Processing)
   - [Audio Synthesis](#Audio-Synthesis)
+  - [text processing](#text-processing)
+- [Audio Visual](#Natural-Language-Processing)
+  - [Active Speaker detection](#Active-Speaker-detection)
 - [Generative Adversarial Network](#Generative-Adversarial-Network)
 - [Dataset](#Dataset) 
 - [Others](#Others)
@@ -68,7 +71,8 @@ PerceptionGAN: Real-world Image Construction from Provided Text through Perceptu
 ## Dataset
 Title | Contributions | Code | Review | Recommand |
 --- | --- | --- | --- | --- |
-DanbooRegion: An Illustration Region Dataset(ECCV 2020)[[pdf]](https://lllyasviel.github.io/DanbooRegion/paper/paper.pdf) | <ul><li> Dataset that annotate regions for in-the-wild cartoon images | [code](https://github.com/lllyasviel/DanbooRegion) | - | :star::star::star: |
+DanbooRegion: An Illustration Region Dataset(ECCV 2020)[[site]](https://lllyasviel.github.io/DanbooRegion) | <ul><li> Dataset that annotate regions for in-the-wild cartoon images | [code](https://github.com/lllyasviel/DanbooRegion) | - | :star::star::star: |
+Voxceleb: Large-scale speaker verification in the wild(Computer Science and Language 2019)[[site]](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/) | <ul><li> Propose a fully automated and scalable pipeline for creating a large-scale‘real-world’speaker identification data-set <il><li> VGGVox, Deep CNN based neural speaker verification system, which is trained to mapvoice spectrograms to a compact embedding space. | [github](https://github.com/a-nagrani/VGGVox) | - | :star::star::star::star::star: |
   
 ## Others
 Title | Contributions | Code | review | Recommand |
