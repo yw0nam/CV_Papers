@@ -1,5 +1,5 @@
 # Paper List
-The list of paper that i read
+Computer vision papers
 
 ## Contents
 - [Self Supervised Learning](#Self-Supervised-Learning)
