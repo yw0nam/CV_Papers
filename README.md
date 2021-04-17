@@ -5,8 +5,8 @@ Computer vision papers
 - [Self Supervised Learning](#Self-Supervised-Learning)
 - [Image Synthesis](#Image-Synthesis)
 - [Generative Adversarial Network](#Generative-Adversarial-Network)
-- [Dataset](#Dataset) 
 - [Others](#Others)
+- [Dataset](#Dataset) 
 - [Medical Application](#Medical-application)
 
 
@@ -49,12 +49,6 @@ Spectral Normalization for Generative Adversarial Networks(ICLR 2018) [[pdf]](ht
 Learn From Distributed Asynchronized GAN Without Sharing Medical Image Data(CVPR 2020)[[pdf]](https://arxiv.org/abs/2006.00080) | <ul><li> In clinical environment, Prviacy violation is critical point. So, this paper handle this problem by Synthesis image using GAN | [code](https://github.com/tommy-qichang/AsynDGAN) | [Yes](https://medium.com/analytics-vidhya/paper-review-asyndgan-train-deep-learning-without-sharing-medical-image-data-ac93b5592be4) | :star::star::star: |
 Data Synthesis based on Generative Adversarial Networks [[pdf]](https://arxiv.org/abs/1806.03384) | <ul><li> Propose Table-GAN, uses generative adversarial networks (GANs) to synthesize fake tables that are statistically similar to the original table yet do not incur information leakage. | [code](https://github.com/mahmoodm2/tableGAN) | - | :star::star: |
 PerceptionGAN: Real-world Image Construction from Provided Text through Perceptual Understanding(IVPR 2020) [[pdf]](https://arxiv.org/abs/2007.00977) | <ul><li> Propose a method to address the first problem, namely, generating a good, perceptually relevant, low-resolution image to be used as an initialization for the refinement stage | Not implemented yet(2021/02/15) | - | :star::star::star: |
- 
-## Dataset
-Title | Contributions | Code | Review | Recommand |
---- | --- | --- | --- | --- |
-DanbooRegion: An Illustration Region Dataset(ECCV 2020)[[site]](https://lllyasviel.github.io/DanbooRegion) | <ul><li> Dataset that annotate regions for in-the-wild cartoon images | [code](https://github.com/lllyasviel/DanbooRegion) | - | :star::star::star: |
-
   
 ## Others
 Title | Contributions | Code | review | Recommand |
@@ -64,6 +58,12 @@ Cylindrical Convolutional Networks for Joint Object Detection and Viewpoint Esti
 SelectiveNet: A Deep Neural Network with an Integrated Reject Option(2019 ICML)[[pdf]](https://arxiv.org/abs/1901.09192) | <ul><li> A selective loss function that optimizes a specified coverage slice using a variant of the interior point optimization method <il><li> SelectiveNet: A three-headed network for end-to-end learning of selective classification models. <il><li> SelectiveNet for regression: Providing the first alternative to costly methods such as MC-dropout or ensemble techniques. | [code](https://github.com/geifmany/SelectiveNet) | - | :star::star::star: |
 Uncertainty-Based Rejection Wrappers for Black-Box Classifiers(2020 IEEE)[[pdf]](https://ieeexplore.ieee.org/document/9097854) | <ul><li> present a method for estimating the uncertainty of a black-box model | Not implemented yet(2021/02/22) | - | :star::star::star: |
 Robust and Generalizable Visual Representation Learning via Random Convolutions[[pdf]](https://arxiv.org/pdf/1811.10153.pdf) | <ul><li> Explore using outputs of multi-scale random convolutions as new images or mixing them with the original images during training | Not implented yet(2021/02/15) | - | :star::star::star: |
+  
+  
+## Dataset
+Title | Contributions | Code |
+--- | --- | --- |
+DanbooRegion: An Illustration Region Dataset(ECCV 2020)[[site]](https://lllyasviel.github.io/DanbooRegion) | <ul><li> Dataset that annotate regions for in-the-wild cartoon images | [code](https://github.com/lllyasviel/DanbooRegion) |
   
 ## Medical-application
 Title | site |
